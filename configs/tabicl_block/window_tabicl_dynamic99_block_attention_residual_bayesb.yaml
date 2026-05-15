@@ -1,0 +1,56 @@
+seed: 2026
+max_snps: 10000
+group_size: 1000
+n_groups: 10
+grouping_strategy: window
+outer_cv_folds: 5
+trait_col: Heading_date
+plink_prefix: genome/rice529/plink/rice529
+phenotype_csv: genome/rice529/rice529_phe.csv
+phenotype_sample_id_col: sample_id
+pad_incomplete_last_block: true
+include_block_scalar: false
+collect_block_diagnostics: false
+save_block_summaries: true
+embedding_extraction_mode: legacy
+residual_target:
+  enabled: true
+  baseline_model: BayesB
+main_models:
+  - name: TabICLv2-PCA-Attention-ResidualBayesB
+    stage1_backend: tabicl
+    stage2_backend: block_attention
+stage1:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    kv_cache: repr
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+    embedding_reduce_dim: null
+    embedding_explained_variance_target: 0.99
+    track_full_explained_variance: false
+stage2:
+  block_attention:
+    use_prior_token: true
+    model_dim: 64
+    num_heads: 4
+    num_layers: 2
+    ff_multiplier: 2
+    dropout: 0.0
+    lr: 0.001
+    weight_decay: 0.0001
+    max_epochs: 120
+    batch_size: null
+    device: cuda
+baselines:
+  rscript_path: /data/yes/envs/r_env/bin/Rscript
+  sommer_method: mmer
+  gblup: false
+  bayesA: false
+  bayesB: false
+  bayesLasso: false
+output_dir: outputs/tabicl_block/window_tabicl_dynamic99_block_attention_residual_bayesb

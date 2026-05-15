@@ -1,0 +1,62 @@
+seed: 2026
+max_snps: 10000
+group_size: 500
+n_groups: 20
+grouping_strategy: window
+outer_cv_folds: 5
+trait_col: Heading_date
+plink_prefix: genome/rice529/plink/rice529
+phenotype_csv: genome/rice529/rice529_phe.csv
+phenotype_sample_id_col: sample_id
+pad_incomplete_last_block: true
+include_block_scalar: false
+collect_block_diagnostics: false
+save_block_summaries: true
+embedding_extraction_mode: legacy
+stage2_prior:
+  enabled: true
+  baseline_model: GBLUP
+main_models:
+  - name: TabICLv2-GBLUP-CalibratedCorrection
+    stage1_backend: tabicl
+    stage2_backend: calibrated_correction
+stage1:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    kv_cache: repr
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+    embedding_reduce_dim: null
+    embedding_explained_variance_target: 0.99
+    track_full_explained_variance: false
+stage2:
+  calibrated_correction:
+    expert_backend: tabicl
+    use_prior_prediction: true
+    use_oof_gate_training: false
+    oof_splits: 3
+    hidden_dim: 32
+    lr: 0.001
+    weight_decay: 0.0001
+    max_epochs: 200
+    device: cpu
+    expert_config:
+      n_estimators: 1
+      norm_methods:
+        - none
+      feat_shuffle_method: none
+      batch_size: 1
+      checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+      device: cuda
+baselines:
+  rscript_path: /data/yes/envs/r_env/bin/Rscript
+  sommer_method: mmer
+  gblup: true
+  bayesA: true
+  bayesB: true
+  bayesLasso: true
+output_dir: outputs/tabicl_block/window_tabicl_calibrated_correction_gblup_nooof_y

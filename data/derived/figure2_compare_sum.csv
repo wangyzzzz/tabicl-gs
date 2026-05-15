@@ -1,0 +1,7 @@
+block,comparison,mean_pct,strict_win_count,nonloss_count,n_traits
+triple_vs_baseline,BayesB,1.6956522233780411,36,36,36
+triple_vs_baseline,GBLUP,2.607640652907202,36,36,36
+triple_vs_baseline,RKHS,1.4162652218493748,30,30,36
+triple_vs_best_baseline,best_baseline,0.8528319010947302,30,30,36
+triple_vs_no_prior_tabicl,no_prior_tabicl,6.8370780418481285,36,36,36
+triple_vs_only_triple,only_triple,0.9331445140310749,32,32,36

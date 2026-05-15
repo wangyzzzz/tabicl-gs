@@ -1,0 +1,2490 @@
+{
+  "summary": {
+    "traits": 36,
+    "datasets": 4,
+    "meanNoPrior": 0.652062,
+    "meanBayesB": 0.676777,
+    "meanGBLUP": 0.67097,
+    "meanRKHS": 0.677294,
+    "meanTriple": 0.68692,
+    "meanBest": 0.681127,
+    "tripleVsBayesBPct": 1.695652,
+    "tripleVsGBLUPPct": 2.607641,
+    "tripleVsRKHSPct": 1.416265,
+    "tripleVsBestPct": 0.852832,
+    "winsBayesB": 36,
+    "winsGBLUP": 36,
+    "winsRKHS": 30,
+    "winsBest": 30,
+    "bestTypeCounts": {
+      "BayesB": 17,
+      "RKHS": 16,
+      "GBLUP": 3
+    }
+  },
+  "traitRows": [
+    {
+      "dataset": "soybean951",
+      "trait": "prt",
+      "traitFull": "prt_beijing_2013_prt_beijing_2013",
+      "label": "soybean951 / prt",
+      "bestType": "RKHS",
+      "bestBaseline": 0.302408,
+      "triple": 0.300138,
+      "tripleVsBestPct": -0.750724,
+      "BayesB": 0.285718,
+      "GBLUP": 0.281687,
+      "RKHS": 0.302408,
+      "noPrior": 0.202501,
+      "singleBayesB": 0.2901,
+      "singleGBLUP": 0.288254,
+      "singleRKHS": 0.303006,
+      "wSingleBayesB": 0.436853,
+      "wSingleGBLUP": 0.451126,
+      "wSingleRKHS": 0.442188,
+      "wTriple": 0.44315,
+      "noPriorVsBestPct": -33.036997,
+      "tripleVsBayesBPct": 5.046772,
+      "tripleVsGBLUPPct": 6.550112,
+      "tripleVsRKHSPct": -0.750724
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "traitFull": "fa16c_beijing_2013_fa16c_beijing_2013",
+      "label": "soybean951 / fa16c",
+      "bestType": "RKHS",
+      "bestBaseline": 0.605863,
+      "triple": 0.601895,
+      "tripleVsBestPct": -0.654918,
+      "BayesB": 0.601144,
+      "GBLUP": 0.595635,
+      "RKHS": 0.605863,
+      "noPrior": 0.54063,
+      "singleBayesB": 0.599268,
+      "singleGBLUP": 0.594592,
+      "singleRKHS": 0.601377,
+      "wSingleBayesB": 0.513119,
+      "wSingleGBLUP": 0.511702,
+      "wSingleRKHS": 0.507989,
+      "wTriple": 0.513559,
+      "noPriorVsBestPct": -10.766871,
+      "tripleVsBayesBPct": 0.124974,
+      "tripleVsGBLUPPct": 1.05095,
+      "tripleVsRKHSPct": -0.654918
+    },
+    {
+      "dataset": "rice529",
+      "trait": "yield",
+      "traitFull": "yield",
+      "label": "rice529 / yield",
+      "bestType": "RKHS",
+      "bestBaseline": 0.532691,
+      "triple": 0.531589,
+      "tripleVsBestPct": -0.206851,
+      "BayesB": 0.515016,
+      "GBLUP": 0.514765,
+      "RKHS": 0.532691,
+      "noPrior": 0.477376,
+      "singleBayesB": 0.516736,
+      "singleGBLUP": 0.515953,
+      "singleRKHS": 0.531589,
+      "wSingleBayesB": 0.478488,
+      "wSingleGBLUP": 0.487915,
+      "wSingleRKHS": 0.476204,
+      "wTriple": 0.477688,
+      "noPriorVsBestPct": -10.383984,
+      "tripleVsBayesBPct": 3.217851,
+      "tripleVsGBLUPPct": 3.26821,
+      "tripleVsRKHSPct": -0.206851
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "traitFull": "vbn_beijing_2013_vbn_beijing_2013",
+      "label": "soybean951 / vbn",
+      "bestType": "RKHS",
+      "bestBaseline": 0.771313,
+      "triple": 0.770089,
+      "tripleVsBestPct": -0.158608,
+      "BayesB": 0.76508,
+      "GBLUP": 0.766284,
+      "RKHS": 0.771313,
+      "noPrior": 0.75171,
+      "singleBayesB": 0.767592,
+      "singleGBLUP": 0.768168,
+      "singleRKHS": 0.770076,
+      "wSingleBayesB": 0.518382,
+      "wSingleGBLUP": 0.514012,
+      "wSingleRKHS": 0.501283,
+      "wTriple": 0.503754,
+      "noPriorVsBestPct": -2.541491,
+      "tripleVsBayesBPct": 0.654742,
+      "tripleVsGBLUPPct": 0.4966,
+      "tripleVsRKHSPct": -0.158608
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "md",
+      "traitFull": "md_beijing_2013_md_beijing_2013",
+      "label": "soybean951 / md",
+      "bestType": "RKHS",
+      "bestBaseline": 0.672923,
+      "triple": 0.671909,
+      "tripleVsBestPct": -0.150763,
+      "BayesB": 0.668269,
+      "GBLUP": 0.659799,
+      "RKHS": 0.672923,
+      "noPrior": 0.615206,
+      "singleBayesB": 0.671336,
+      "singleGBLUP": 0.663859,
+      "singleRKHS": 0.669335,
+      "wSingleBayesB": 0.499575,
+      "wSingleGBLUP": 0.515824,
+      "wSingleRKHS": 0.519567,
+      "wTriple": 0.502373,
+      "noPriorVsBestPct": -8.577079,
+      "tripleVsBayesBPct": 0.544591,
+      "tripleVsGBLUPPct": 1.83534,
+      "tripleVsRKHSPct": -0.150763
+    },
+    {
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "traitFull": "num_panicles",
+      "label": "rice529 / num_panicles",
+      "bestType": "RKHS",
+      "bestBaseline": 0.663311,
+      "triple": 0.662867,
+      "tripleVsBestPct": -0.066846,
+      "BayesB": 0.652506,
+      "GBLUP": 0.65335,
+      "RKHS": 0.663311,
+      "noPrior": 0.631136,
+      "singleBayesB": 0.65691,
+      "singleGBLUP": 0.656407,
+      "singleRKHS": 0.663332,
+      "wSingleBayesB": 0.510276,
+      "wSingleGBLUP": 0.517335,
+      "wSingleRKHS": 0.498265,
+      "wTriple": 0.51036,
+      "noPriorVsBestPct": -4.85057,
+      "tripleVsBayesBPct": 1.587841,
+      "tripleVsGBLUPPct": 1.4567,
+      "tripleVsRKHSPct": -0.066846
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "traitFull": "grain_width",
+      "label": "rice529 / grain_width",
+      "bestType": "BayesB",
+      "bestBaseline": 0.836176,
+      "triple": 0.836392,
+      "tripleVsBestPct": 0.025869,
+      "BayesB": 0.836176,
+      "GBLUP": 0.827534,
+      "RKHS": 0.823159,
+      "noPrior": 0.816583,
+      "singleBayesB": 0.836718,
+      "singleGBLUP": 0.829693,
+      "singleRKHS": 0.824904,
+      "wSingleBayesB": 0.510212,
+      "wSingleGBLUP": 0.521104,
+      "wSingleRKHS": 0.555513,
+      "wTriple": 0.516011,
+      "noPriorVsBestPct": -2.343119,
+      "tripleVsBayesBPct": 0.025869,
+      "tripleVsGBLUPPct": 1.070445,
+      "tripleVsRKHSPct": 1.607645
+    },
+    {
+      "dataset": "rice529",
+      "trait": "spikelet_length",
+      "traitFull": "spikelet_length",
+      "label": "rice529 / spikelet_length",
+      "bestType": "RKHS",
+      "bestBaseline": 0.631802,
+      "triple": 0.631994,
+      "tripleVsBestPct": 0.030378,
+      "BayesB": 0.619146,
+      "GBLUP": 0.623707,
+      "RKHS": 0.631802,
+      "noPrior": 0.6021,
+      "singleBayesB": 0.627689,
+      "singleGBLUP": 0.631514,
+      "singleRKHS": 0.634756,
+      "wSingleBayesB": 0.449142,
+      "wSingleGBLUP": 0.450869,
+      "wSingleRKHS": 0.461404,
+      "wTriple": 0.438902,
+      "noPriorVsBestPct": -4.701104,
+      "tripleVsBayesBPct": 2.075043,
+      "tripleVsGBLUPPct": 1.328617,
+      "tripleVsRKHSPct": 0.030378
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "bbd",
+      "traitFull": "bbd_beijing_2013_bbd_beijing_2013",
+      "label": "soybean951 / bbd",
+      "bestType": "BayesB",
+      "bestBaseline": 0.820973,
+      "triple": 0.82154,
+      "tripleVsBestPct": 0.069141,
+      "BayesB": 0.820973,
+      "GBLUP": 0.811029,
+      "RKHS": 0.811295,
+      "noPrior": 0.790683,
+      "singleBayesB": 0.821681,
+      "singleGBLUP": 0.812766,
+      "singleRKHS": 0.808652,
+      "wSingleBayesB": 0.514735,
+      "wSingleGBLUP": 0.519399,
+      "wSingleRKHS": 0.542637,
+      "wTriple": 0.52137,
+      "noPriorVsBestPct": -3.689437,
+      "tripleVsBayesBPct": 0.069141,
+      "tripleVsGBLUPPct": 1.296012,
+      "tripleVsRKHSPct": 1.262771
+    },
+    {
+      "dataset": "rice529",
+      "trait": "num_effective_panicles",
+      "traitFull": "num_effective_panicles",
+      "label": "rice529 / num_effective_panicles",
+      "bestType": "RKHS",
+      "bestBaseline": 0.663187,
+      "triple": 0.66425,
+      "tripleVsBestPct": 0.160304,
+      "BayesB": 0.651539,
+      "GBLUP": 0.653422,
+      "RKHS": 0.663187,
+      "noPrior": 0.639902,
+      "singleBayesB": 0.65998,
+      "singleGBLUP": 0.65982,
+      "singleRKHS": 0.664809,
+      "wSingleBayesB": 0.553151,
+      "wSingleGBLUP": 0.534804,
+      "wSingleRKHS": 0.54489,
+      "wTriple": 0.549183,
+      "noPriorVsBestPct": -3.511008,
+      "tripleVsBayesBPct": 1.950899,
+      "tripleVsGBLUPPct": 1.657142,
+      "tripleVsRKHSPct": 0.160304
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "plh",
+      "traitFull": "plh_beijing_2013_plh_beijing_2013",
+      "label": "soybean951 / plh",
+      "bestType": "BayesB",
+      "bestBaseline": 0.761688,
+      "triple": 0.763781,
+      "tripleVsBestPct": 0.274769,
+      "BayesB": 0.761688,
+      "GBLUP": 0.742453,
+      "RKHS": 0.74336,
+      "noPrior": 0.703289,
+      "singleBayesB": 0.7637,
+      "singleGBLUP": 0.743779,
+      "singleRKHS": 0.74237,
+      "wSingleBayesB": 0.495143,
+      "wSingleGBLUP": 0.496787,
+      "wSingleRKHS": 0.49728,
+      "wTriple": 0.494077,
+      "noPriorVsBestPct": -7.667073,
+      "tripleVsBayesBPct": 0.274769,
+      "tripleVsGBLUPPct": 2.872742,
+      "tripleVsRKHSPct": 2.747224
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fa18c",
+      "traitFull": "fa18c_beijing_2013_fa18c_beijing_2013",
+      "label": "soybean951 / fa18c",
+      "bestType": "BayesB",
+      "bestBaseline": 0.798682,
+      "triple": 0.800958,
+      "tripleVsBestPct": 0.285013,
+      "BayesB": 0.798682,
+      "GBLUP": 0.79813,
+      "RKHS": 0.798231,
+      "noPrior": 0.769294,
+      "singleBayesB": 0.800958,
+      "singleGBLUP": 0.800684,
+      "singleRKHS": 0.799256,
+      "wSingleBayesB": 0.478153,
+      "wSingleGBLUP": 0.462138,
+      "wSingleRKHS": 0.48417,
+      "wTriple": 0.47519,
+      "noPriorVsBestPct": -3.679525,
+      "tripleVsBayesBPct": 0.285013,
+      "tripleVsGBLUPPct": 0.354396,
+      "tripleVsRKHSPct": 0.341731
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_thickness",
+      "traitFull": "grain_thickness",
+      "label": "rice529 / grain_thickness",
+      "bestType": "BayesB",
+      "bestBaseline": 0.710897,
+      "triple": 0.713195,
+      "tripleVsBestPct": 0.323281,
+      "BayesB": 0.710897,
+      "GBLUP": 0.706367,
+      "RKHS": 0.696354,
+      "noPrior": 0.686103,
+      "singleBayesB": 0.713195,
+      "singleGBLUP": 0.709722,
+      "singleRKHS": 0.701578,
+      "wSingleBayesB": 0.481517,
+      "wSingleGBLUP": 0.486072,
+      "wSingleRKHS": 0.499969,
+      "wTriple": 0.478883,
+      "noPriorVsBestPct": -3.487751,
+      "tripleVsBayesBPct": 0.323281,
+      "tripleVsGBLUPPct": 0.966626,
+      "tripleVsRKHSPct": 2.418545
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "traitFull": "sl_e2",
+      "label": "wheat406 / sl_e2",
+      "bestType": "RKHS",
+      "bestBaseline": 0.436716,
+      "triple": 0.438148,
+      "tripleVsBestPct": 0.32776,
+      "BayesB": 0.415868,
+      "GBLUP": 0.410068,
+      "RKHS": 0.436716,
+      "noPrior": 0.370058,
+      "singleBayesB": 0.424052,
+      "singleGBLUP": 0.419128,
+      "singleRKHS": 0.438148,
+      "wSingleBayesB": 0.456118,
+      "wSingleGBLUP": 0.458405,
+      "wSingleRKHS": 0.469183,
+      "wTriple": 0.458121,
+      "noPriorVsBestPct": -15.263611,
+      "tripleVsBayesBPct": 5.357363,
+      "tripleVsGBLUPPct": 6.84748,
+      "tripleVsRKHSPct": 0.32776
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fac",
+      "traitFull": "fac_beijing_2013_fac_beijing_2013",
+      "label": "soybean951 / fac",
+      "bestType": "RKHS",
+      "bestBaseline": 0.647588,
+      "triple": 0.64988,
+      "tripleVsBestPct": 0.353907,
+      "BayesB": 0.636206,
+      "GBLUP": 0.638905,
+      "RKHS": 0.647588,
+      "noPrior": 0.602365,
+      "singleBayesB": 0.64259,
+      "singleGBLUP": 0.644537,
+      "singleRKHS": 0.64988,
+      "wSingleBayesB": 0.484439,
+      "wSingleGBLUP": 0.475193,
+      "wSingleRKHS": 0.46097,
+      "wTriple": 0.468555,
+      "noPriorVsBestPct": -6.983382,
+      "tripleVsBayesBPct": 2.149242,
+      "tripleVsGBLUPPct": 1.717828,
+      "tripleVsRKHSPct": 0.353907
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "sl",
+      "traitFull": "sl_beijing_2013_sl_beijing_2013",
+      "label": "soybean951 / sl",
+      "bestType": "RKHS",
+      "bestBaseline": 0.555462,
+      "triple": 0.557823,
+      "tripleVsBestPct": 0.425065,
+      "BayesB": 0.543589,
+      "GBLUP": 0.540454,
+      "RKHS": 0.555462,
+      "noPrior": 0.504755,
+      "singleBayesB": 0.554687,
+      "singleGBLUP": 0.552115,
+      "singleRKHS": 0.556605,
+      "wSingleBayesB": 0.493579,
+      "wSingleGBLUP": 0.485625,
+      "wSingleRKHS": 0.470244,
+      "wTriple": 0.476284,
+      "noPriorVsBestPct": -9.128895,
+      "tripleVsBayesBPct": 2.618596,
+      "tripleVsGBLUPPct": 3.213809,
+      "tripleVsRKHSPct": 0.425065
+    },
+    {
+      "dataset": "rice529",
+      "trait": "heading_date",
+      "traitFull": "heading_date",
+      "label": "rice529 / heading_date",
+      "bestType": "RKHS",
+      "bestBaseline": 0.746411,
+      "triple": 0.749821,
+      "tripleVsBestPct": 0.456915,
+      "BayesB": 0.733462,
+      "GBLUP": 0.723006,
+      "RKHS": 0.746411,
+      "noPrior": 0.738156,
+      "singleBayesB": 0.752125,
+      "singleGBLUP": 0.747357,
+      "singleRKHS": 0.752513,
+      "wSingleBayesB": 0.527132,
+      "wSingleGBLUP": 0.503858,
+      "wSingleRKHS": 0.503279,
+      "wTriple": 0.491476,
+      "noPriorVsBestPct": -1.105885,
+      "tripleVsBayesBPct": 2.230411,
+      "tripleVsGBLUPPct": 3.70893,
+      "tripleVsRKHSPct": 0.456915
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "st",
+      "traitFull": "st_beijing_2013_st_beijing_2013",
+      "label": "soybean951 / st",
+      "bestType": "GBLUP",
+      "bestBaseline": 0.73224,
+      "triple": 0.736408,
+      "tripleVsBestPct": 0.569222,
+      "BayesB": 0.732097,
+      "GBLUP": 0.73224,
+      "RKHS": 0.727448,
+      "noPrior": 0.684494,
+      "singleBayesB": 0.736474,
+      "singleGBLUP": 0.736728,
+      "singleRKHS": 0.730572,
+      "wSingleBayesB": 0.464503,
+      "wSingleGBLUP": 0.453788,
+      "wSingleRKHS": 0.464938,
+      "wTriple": 0.452444,
+      "noPriorVsBestPct": -6.520565,
+      "tripleVsBayesBPct": 0.588855,
+      "tripleVsGBLUPPct": 0.569222,
+      "tripleVsRKHSPct": 1.23162
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "ph_e3",
+      "traitFull": "ph_e3",
+      "label": "wheat406 / ph_e3",
+      "bestType": "BayesB",
+      "bestBaseline": 0.848494,
+      "triple": 0.854149,
+      "tripleVsBestPct": 0.666544,
+      "BayesB": 0.848494,
+      "GBLUP": 0.844701,
+      "RKHS": 0.839065,
+      "noPrior": 0.832865,
+      "singleBayesB": 0.85557,
+      "singleGBLUP": 0.853706,
+      "singleRKHS": 0.848614,
+      "wSingleBayesB": 0.485606,
+      "wSingleGBLUP": 0.486467,
+      "wSingleRKHS": 0.551292,
+      "wTriple": 0.506274,
+      "noPriorVsBestPct": -1.841959,
+      "tripleVsBayesBPct": 0.666544,
+      "tripleVsGBLUPPct": 1.118517,
+      "tripleVsRKHSPct": 1.797787
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_length",
+      "traitFull": "grain_length",
+      "label": "rice529 / grain_length",
+      "bestType": "BayesB",
+      "bestBaseline": 0.741075,
+      "triple": 0.747122,
+      "tripleVsBestPct": 0.815994,
+      "BayesB": 0.741075,
+      "GBLUP": 0.719696,
+      "RKHS": 0.734177,
+      "noPrior": 0.715405,
+      "singleBayesB": 0.74623,
+      "singleGBLUP": 0.730559,
+      "singleRKHS": 0.736411,
+      "wSingleBayesB": 0.432594,
+      "wSingleGBLUP": 0.468794,
+      "wSingleRKHS": 0.468124,
+      "wTriple": 0.434464,
+      "noPriorVsBestPct": -3.463821,
+      "tripleVsBayesBPct": 0.815994,
+      "tripleVsGBLUPPct": 3.810701,
+      "tripleVsRKHSPct": 1.763216
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "pl_e3",
+      "traitFull": "pl_e3",
+      "label": "wheat406 / pl_e3",
+      "bestType": "BayesB",
+      "bestBaseline": 0.812178,
+      "triple": 0.820289,
+      "tripleVsBestPct": 0.998628,
+      "BayesB": 0.812178,
+      "GBLUP": 0.805239,
+      "RKHS": 0.808239,
+      "noPrior": 0.799242,
+      "singleBayesB": 0.820316,
+      "singleGBLUP": 0.817385,
+      "singleRKHS": 0.816094,
+      "wSingleBayesB": 0.539973,
+      "wSingleGBLUP": 0.533637,
+      "wSingleRKHS": 0.551196,
+      "wTriple": 0.523378,
+      "noPriorVsBestPct": -1.592757,
+      "tripleVsBayesBPct": 0.998628,
+      "tripleVsGBLUPPct": 1.869052,
+      "tripleVsRKHSPct": 1.490951
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "ph_e1",
+      "traitFull": "ph_e1",
+      "label": "wheat406 / ph_e1",
+      "bestType": "BayesB",
+      "bestBaseline": 0.813582,
+      "triple": 0.822477,
+      "tripleVsBestPct": 1.09328,
+      "BayesB": 0.813582,
+      "GBLUP": 0.806348,
+      "RKHS": 0.813501,
+      "noPrior": 0.803503,
+      "singleBayesB": 0.82366,
+      "singleGBLUP": 0.821145,
+      "singleRKHS": 0.819569,
+      "wSingleBayesB": 0.471599,
+      "wSingleGBLUP": 0.456539,
+      "wSingleRKHS": 0.531497,
+      "wTriple": 0.482708,
+      "noPriorVsBestPct": -1.238868,
+      "tripleVsBayesBPct": 1.09328,
+      "tripleVsGBLUPPct": 2.000241,
+      "tripleVsRKHSPct": 1.103369
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "traitFull": "cotton_fibelo_17_18_cotton_fibelo_17_18",
+      "label": "cotton1245 / cotton_fibelo",
+      "bestType": "BayesB",
+      "bestBaseline": 0.65953,
+      "triple": 0.666748,
+      "tripleVsBestPct": 1.094384,
+      "BayesB": 0.65953,
+      "GBLUP": 0.646072,
+      "RKHS": 0.648466,
+      "noPrior": 0.632407,
+      "singleBayesB": 0.668068,
+      "singleGBLUP": 0.657735,
+      "singleRKHS": 0.656875,
+      "wSingleBayesB": 0.480238,
+      "wSingleGBLUP": 0.484052,
+      "wSingleRKHS": 0.474843,
+      "wTriple": 0.470487,
+      "noPriorVsBestPct": -4.112513,
+      "tripleVsBayesBPct": 1.094384,
+      "tripleVsGBLUPPct": 3.200312,
+      "tripleVsRKHSPct": 2.819339
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "ph_e2",
+      "traitFull": "ph_e2",
+      "label": "wheat406 / ph_e2",
+      "bestType": "BayesB",
+      "bestBaseline": 0.780137,
+      "triple": 0.788847,
+      "tripleVsBestPct": 1.116465,
+      "BayesB": 0.780137,
+      "GBLUP": 0.776396,
+      "RKHS": 0.778819,
+      "noPrior": 0.76598,
+      "singleBayesB": 0.788816,
+      "singleGBLUP": 0.784731,
+      "singleRKHS": 0.7835,
+      "wSingleBayesB": 0.477594,
+      "wSingleGBLUP": 0.536252,
+      "wSingleRKHS": 0.540136,
+      "wTriple": 0.543186,
+      "noPriorVsBestPct": -1.814606,
+      "tripleVsBayesBPct": 1.116465,
+      "tripleVsGBLUPPct": 1.603627,
+      "tripleVsRKHSPct": 1.287537
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e3",
+      "traitFull": "sl_e3",
+      "label": "wheat406 / sl_e3",
+      "bestType": "BayesB",
+      "bestBaseline": 0.650626,
+      "triple": 0.658056,
+      "tripleVsBestPct": 1.142008,
+      "BayesB": 0.650626,
+      "GBLUP": 0.634377,
+      "RKHS": 0.643191,
+      "noPrior": 0.617136,
+      "singleBayesB": 0.660479,
+      "singleGBLUP": 0.65128,
+      "singleRKHS": 0.651008,
+      "wSingleBayesB": 0.464194,
+      "wSingleGBLUP": 0.447214,
+      "wSingleRKHS": 0.484731,
+      "wTriple": 0.436231,
+      "noPriorVsBestPct": -5.147332,
+      "tripleVsBayesBPct": 1.142008,
+      "tripleVsGBLUPPct": 3.732723,
+      "tripleVsRKHSPct": 2.311221
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "hsw",
+      "traitFull": "hsw_beijing_2013_hsw_beijing_2013",
+      "label": "soybean951 / hsw",
+      "bestType": "GBLUP",
+      "bestBaseline": 0.771093,
+      "triple": 0.780331,
+      "tripleVsBestPct": 1.197943,
+      "BayesB": 0.770398,
+      "GBLUP": 0.771093,
+      "RKHS": 0.769799,
+      "noPrior": 0.740549,
+      "singleBayesB": 0.778289,
+      "singleGBLUP": 0.779915,
+      "singleRKHS": 0.775079,
+      "wSingleBayesB": 0.468627,
+      "wSingleGBLUP": 0.476173,
+      "wSingleRKHS": 0.454901,
+      "wTriple": 0.458685,
+      "noPriorVsBestPct": -3.961218,
+      "tripleVsBayesBPct": 1.289261,
+      "tripleVsGBLUPPct": 1.197943,
+      "tripleVsRKHSPct": 1.368168
+    },
+    {
+      "dataset": "rice529",
+      "trait": "plant_height",
+      "traitFull": "plant_height",
+      "label": "rice529 / plant_height",
+      "bestType": "GBLUP",
+      "bestBaseline": 0.842689,
+      "triple": 0.853461,
+      "tripleVsBestPct": 1.278292,
+      "BayesB": 0.842668,
+      "GBLUP": 0.842689,
+      "RKHS": 0.838568,
+      "noPrior": 0.846374,
+      "singleBayesB": 0.852721,
+      "singleGBLUP": 0.853553,
+      "singleRKHS": 0.849366,
+      "wSingleBayesB": 0.525199,
+      "wSingleGBLUP": 0.513143,
+      "wSingleRKHS": 0.560164,
+      "wTriple": 0.511848,
+      "noPriorVsBestPct": 0.43725,
+      "tripleVsBayesBPct": 1.280783,
+      "tripleVsGBLUPPct": 1.278292,
+      "tripleVsRKHSPct": 1.775994
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "ll",
+      "traitFull": "ll_beijing_2013_ll_beijing_2013",
+      "label": "soybean951 / ll",
+      "bestType": "BayesB",
+      "bestBaseline": 0.403185,
+      "triple": 0.408819,
+      "tripleVsBestPct": 1.397444,
+      "BayesB": 0.403185,
+      "GBLUP": 0.401562,
+      "RKHS": 0.398991,
+      "noPrior": 0.350777,
+      "singleBayesB": 0.411595,
+      "singleGBLUP": 0.410752,
+      "singleRKHS": 0.406728,
+      "wSingleBayesB": 0.464775,
+      "wSingleGBLUP": 0.459429,
+      "wSingleRKHS": 0.470699,
+      "wTriple": 0.462332,
+      "noPriorVsBestPct": -12.998495,
+      "tripleVsBayesBPct": 1.397444,
+      "tripleVsGBLUPPct": 1.807212,
+      "tripleVsRKHSPct": 2.463428
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "lw",
+      "traitFull": "lw_beijing_2013_lw_beijing_2013",
+      "label": "soybean951 / lw",
+      "bestType": "BayesB",
+      "bestBaseline": 0.547066,
+      "triple": 0.556149,
+      "tripleVsBestPct": 1.660313,
+      "BayesB": 0.547066,
+      "GBLUP": 0.525918,
+      "RKHS": 0.531812,
+      "noPrior": 0.501739,
+      "singleBayesB": 0.556149,
+      "singleGBLUP": 0.539927,
+      "singleRKHS": 0.540122,
+      "wSingleBayesB": 0.482659,
+      "wSingleGBLUP": 0.505764,
+      "wSingleRKHS": 0.498204,
+      "wTriple": 0.491884,
+      "noPriorVsBestPct": -8.285345,
+      "tripleVsBayesBPct": 1.660313,
+      "tripleVsGBLUPPct": 5.748196,
+      "tripleVsRKHSPct": 4.576211
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibstr",
+      "traitFull": "cotton_fibstr_17_18_cotton_fibstr_17_18",
+      "label": "cotton1245 / cotton_fibstr",
+      "bestType": "RKHS",
+      "bestBaseline": 0.758938,
+      "triple": 0.771726,
+      "tripleVsBestPct": 1.684973,
+      "BayesB": 0.756181,
+      "GBLUP": 0.75664,
+      "RKHS": 0.758938,
+      "noPrior": 0.749616,
+      "singleBayesB": 0.770583,
+      "singleGBLUP": 0.770862,
+      "singleRKHS": 0.768605,
+      "wSingleBayesB": 0.486209,
+      "wSingleGBLUP": 0.481752,
+      "wSingleRKHS": 0.491683,
+      "wTriple": 0.484066,
+      "noPriorVsBestPct": -1.228325,
+      "tripleVsBayesBPct": 2.055744,
+      "tripleVsGBLUPPct": 1.9938,
+      "tripleVsRKHSPct": 1.684973
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibmic",
+      "traitFull": "cotton_fibmic_17_18_cotton_fibmic_17_18",
+      "label": "cotton1245 / cotton_fibmic",
+      "bestType": "RKHS",
+      "bestBaseline": 0.656965,
+      "triple": 0.668322,
+      "tripleVsBestPct": 1.72871,
+      "BayesB": 0.654398,
+      "GBLUP": 0.651366,
+      "RKHS": 0.656965,
+      "noPrior": 0.649867,
+      "singleBayesB": 0.667798,
+      "singleGBLUP": 0.665437,
+      "singleRKHS": 0.666915,
+      "wSingleBayesB": 0.496855,
+      "wSingleGBLUP": 0.490614,
+      "wSingleRKHS": 0.500657,
+      "wTriple": 0.482027,
+      "noPriorVsBestPct": -1.080448,
+      "tripleVsBayesBPct": 2.127673,
+      "tripleVsGBLUPPct": 2.603159,
+      "tripleVsRKHSPct": 1.72871
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fiblen",
+      "traitFull": "cotton_fiblen_17_18_cotton_fiblen_17_18",
+      "label": "cotton1245 / cotton_fiblen",
+      "bestType": "BayesB",
+      "bestBaseline": 0.755895,
+      "triple": 0.769348,
+      "tripleVsBestPct": 1.779784,
+      "BayesB": 0.755895,
+      "GBLUP": 0.741984,
+      "RKHS": 0.749628,
+      "noPrior": 0.740698,
+      "singleBayesB": 0.768441,
+      "singleGBLUP": 0.758809,
+      "singleRKHS": 0.760008,
+      "wSingleBayesB": 0.493243,
+      "wSingleGBLUP": 0.506282,
+      "wSingleRKHS": 0.494987,
+      "wTriple": 0.482381,
+      "noPriorVsBestPct": -2.0105,
+      "tripleVsBayesBPct": 1.779784,
+      "tripleVsGBLUPPct": 3.687979,
+      "tripleVsRKHSPct": 2.630756
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "pl_e2",
+      "traitFull": "pl_e2",
+      "label": "wheat406 / pl_e2",
+      "bestType": "RKHS",
+      "bestBaseline": 0.723999,
+      "triple": 0.737992,
+      "tripleVsBestPct": 1.932768,
+      "BayesB": 0.721379,
+      "GBLUP": 0.718634,
+      "RKHS": 0.723999,
+      "noPrior": 0.718509,
+      "singleBayesB": 0.737267,
+      "singleGBLUP": 0.737785,
+      "singleRKHS": 0.735496,
+      "wSingleBayesB": 0.512116,
+      "wSingleGBLUP": 0.50192,
+      "wSingleRKHS": 0.517342,
+      "wTriple": 0.51565,
+      "noPriorVsBestPct": -0.758281,
+      "tripleVsBayesBPct": 2.30304,
+      "tripleVsGBLUPPct": 2.693778,
+      "tripleVsRKHSPct": 1.932768
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "pl_e1",
+      "traitFull": "pl_e1",
+      "label": "wheat406 / pl_e1",
+      "bestType": "BayesB",
+      "bestBaseline": 0.84331,
+      "triple": 0.863284,
+      "tripleVsBestPct": 2.368515,
+      "BayesB": 0.84331,
+      "GBLUP": 0.829263,
+      "RKHS": 0.842948,
+      "noPrior": 0.858148,
+      "singleBayesB": 0.864627,
+      "singleGBLUP": 0.85969,
+      "singleRKHS": 0.863326,
+      "wSingleBayesB": 0.51634,
+      "wSingleGBLUP": 0.511785,
+      "wSingleRKHS": 0.554406,
+      "wTriple": 0.510689,
+      "noPriorVsBestPct": 1.759547,
+      "tripleVsBayesBPct": 2.368515,
+      "tripleVsGBLUPPct": 4.102495,
+      "tripleVsRKHSPct": 2.412452
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "traitFull": "grain_weight",
+      "label": "rice529 / grain_weight",
+      "bestType": "BayesB",
+      "bestBaseline": 0.561884,
+      "triple": 0.582129,
+      "tripleVsBestPct": 3.603031,
+      "BayesB": 0.561884,
+      "GBLUP": 0.555355,
+      "RKHS": 0.55635,
+      "noPrior": 0.574106,
+      "singleBayesB": 0.58219,
+      "singleGBLUP": 0.580445,
+      "singleRKHS": 0.578383,
+      "wSingleBayesB": 0.541672,
+      "wSingleGBLUP": 0.531635,
+      "wSingleRKHS": 0.542473,
+      "wTriple": 0.540303,
+      "noPriorVsBestPct": 2.175131,
+      "tripleVsBayesBPct": 3.603031,
+      "tripleVsGBLUPPct": 4.821021,
+      "tripleVsRKHSPct": 4.633553
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e1",
+      "traitFull": "sl_e1",
+      "label": "wheat406 / sl_e1",
+      "bestType": "RKHS",
+      "bestBaseline": 0.459604,
+      "triple": 0.477206,
+      "tripleVsBestPct": 3.829958,
+      "BayesB": 0.45394,
+      "GBLUP": 0.448735,
+      "RKHS": 0.459604,
+      "noPrior": 0.450977,
+      "singleBayesB": 0.476568,
+      "singleGBLUP": 0.474285,
+      "singleRKHS": 0.476635,
+      "wSingleBayesB": 0.53,
+      "wSingleGBLUP": 0.518911,
+      "wSingleRKHS": 0.521836,
+      "wTriple": 0.510846,
+      "noPriorVsBestPct": -1.8771,
+      "tripleVsBayesBPct": 5.125339,
+      "tripleVsGBLUPPct": 6.344854,
+      "tripleVsRKHSPct": 3.829958
+    }
+  ],
+  "datasetSummary": [
+    {
+      "dataset": "cotton1245",
+      "gainPct": 1.571962,
+      "wins": 4,
+      "n": 4
+    },
+    {
+      "dataset": "rice529",
+      "gainPct": 0.642037,
+      "wins": 8,
+      "n": 10
+    },
+    {
+      "dataset": "soybean951",
+      "gainPct": 0.347523,
+      "wins": 9,
+      "n": 13
+    },
+    {
+      "dataset": "wheat406",
+      "gainPct": 1.497325,
+      "wins": 9,
+      "n": 9
+    }
+  ],
+  "negativeTraits": [
+    {
+      "dataset": "soybean951",
+      "trait": "prt",
+      "label": "soybean951 / prt",
+      "bestType": "RKHS",
+      "gainPct": -0.750724
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "label": "soybean951 / fa16c",
+      "bestType": "RKHS",
+      "gainPct": -0.654918
+    },
+    {
+      "dataset": "rice529",
+      "trait": "yield",
+      "label": "rice529 / yield",
+      "bestType": "RKHS",
+      "gainPct": -0.206851
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "label": "soybean951 / vbn",
+      "bestType": "RKHS",
+      "gainPct": -0.158608
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "md",
+      "label": "soybean951 / md",
+      "bestType": "RKHS",
+      "gainPct": -0.150763
+    },
+    {
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "label": "rice529 / num_panicles",
+      "bestType": "RKHS",
+      "gainPct": -0.066846
+    }
+  ],
+  "singleSummary": [
+    {
+      "method": "single_bayesb_two_step_ls",
+      "label": "BayesB-prior + TabICL",
+      "prior": "BayesB",
+      "gainPct": 1.318535,
+      "wins": 35,
+      "n": 36,
+      "meanPearson": 0.685143,
+      "priorMean": 0.676777
+    },
+    {
+      "method": "single_gblup_two_step_ls",
+      "label": "GBLUP-prior + TabICL",
+      "prior": "GBLUP",
+      "gainPct": 1.620155,
+      "wins": 35,
+      "n": 36,
+      "meanPearson": 0.681197,
+      "priorMean": 0.67097
+    },
+    {
+      "method": "single_rkhs_two_step_ls",
+      "label": "RKHS-prior + TabICL",
+      "prior": "RKHS",
+      "gainPct": 0.823117,
+      "wins": 30,
+      "n": 36,
+      "meanPearson": 0.682653,
+      "priorMean": 0.677294
+    }
+  ],
+  "weights": [
+    {
+      "type": "Single BayesB",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "w": 0.480238
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "cotton1245",
+      "trait": "cotton_fiblen",
+      "w": 0.493243
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibmic",
+      "w": 0.496855
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibstr",
+      "w": 0.486209
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "grain_length",
+      "w": 0.432594
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "grain_thickness",
+      "w": 0.481517
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "w": 0.541672
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "w": 0.510212
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "heading_date",
+      "w": 0.527132
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "num_effective_panicles",
+      "w": 0.553151
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "w": 0.510276
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "plant_height",
+      "w": 0.525199
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "spikelet_length",
+      "w": 0.449142
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "rice529",
+      "trait": "yield",
+      "w": 0.478488
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "bbd",
+      "w": 0.514735
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "w": 0.513119
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "fa18c",
+      "w": 0.478153
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "fac",
+      "w": 0.484439
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "hsw",
+      "w": 0.468627
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "ll",
+      "w": 0.464775
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "lw",
+      "w": 0.482659
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "md",
+      "w": 0.499575
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "plh",
+      "w": 0.495143
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "prt",
+      "w": 0.436853
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "sl",
+      "w": 0.493579
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "st",
+      "w": 0.464503
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "w": 0.518382
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "ph_e1",
+      "w": 0.471599
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "ph_e2",
+      "w": 0.477594
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "ph_e3",
+      "w": 0.485606
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "pl_e1",
+      "w": 0.51634
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "pl_e2",
+      "w": 0.512116
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "pl_e3",
+      "w": 0.539973
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "sl_e1",
+      "w": 0.53
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "w": 0.456118
+    },
+    {
+      "type": "Single BayesB",
+      "dataset": "wheat406",
+      "trait": "sl_e3",
+      "w": 0.464194
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "w": 0.484052
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "cotton1245",
+      "trait": "cotton_fiblen",
+      "w": 0.506282
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibmic",
+      "w": 0.490614
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibstr",
+      "w": 0.481752
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "grain_length",
+      "w": 0.468794
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "grain_thickness",
+      "w": 0.486072
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "w": 0.531635
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "w": 0.521104
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "heading_date",
+      "w": 0.503858
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "num_effective_panicles",
+      "w": 0.534804
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "w": 0.517335
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "plant_height",
+      "w": 0.513143
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "spikelet_length",
+      "w": 0.450869
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "rice529",
+      "trait": "yield",
+      "w": 0.487915
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "bbd",
+      "w": 0.519399
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "w": 0.511702
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "fa18c",
+      "w": 0.462138
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "fac",
+      "w": 0.475193
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "hsw",
+      "w": 0.476173
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "ll",
+      "w": 0.459429
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "lw",
+      "w": 0.505764
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "md",
+      "w": 0.515824
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "plh",
+      "w": 0.496787
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "prt",
+      "w": 0.451126
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "sl",
+      "w": 0.485625
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "st",
+      "w": 0.453788
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "w": 0.514012
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "ph_e1",
+      "w": 0.456539
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "ph_e2",
+      "w": 0.536252
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "ph_e3",
+      "w": 0.486467
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "pl_e1",
+      "w": 0.511785
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "pl_e2",
+      "w": 0.50192
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "pl_e3",
+      "w": 0.533637
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "sl_e1",
+      "w": 0.518911
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "w": 0.458405
+    },
+    {
+      "type": "Single GBLUP",
+      "dataset": "wheat406",
+      "trait": "sl_e3",
+      "w": 0.447214
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "w": 0.474843
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "cotton1245",
+      "trait": "cotton_fiblen",
+      "w": 0.494987
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibmic",
+      "w": 0.500657
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibstr",
+      "w": 0.491683
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "grain_length",
+      "w": 0.468124
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "grain_thickness",
+      "w": 0.499969
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "w": 0.542473
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "w": 0.555513
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "heading_date",
+      "w": 0.503279
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "num_effective_panicles",
+      "w": 0.54489
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "w": 0.498265
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "plant_height",
+      "w": 0.560164
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "spikelet_length",
+      "w": 0.461404
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "rice529",
+      "trait": "yield",
+      "w": 0.476204
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "bbd",
+      "w": 0.542637
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "w": 0.507989
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "fa18c",
+      "w": 0.48417
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "fac",
+      "w": 0.46097
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "hsw",
+      "w": 0.454901
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "ll",
+      "w": 0.470699
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "lw",
+      "w": 0.498204
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "md",
+      "w": 0.519567
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "plh",
+      "w": 0.49728
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "prt",
+      "w": 0.442188
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "sl",
+      "w": 0.470244
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "st",
+      "w": 0.464938
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "w": 0.501283
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "ph_e1",
+      "w": 0.531497
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "ph_e2",
+      "w": 0.540136
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "ph_e3",
+      "w": 0.551292
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "pl_e1",
+      "w": 0.554406
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "pl_e2",
+      "w": 0.517342
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "pl_e3",
+      "w": 0.551196
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "sl_e1",
+      "w": 0.521836
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "w": 0.469183
+    },
+    {
+      "type": "Single RKHS",
+      "dataset": "wheat406",
+      "trait": "sl_e3",
+      "w": 0.484731
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "w": 0.470487
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "cotton1245",
+      "trait": "cotton_fiblen",
+      "w": 0.482381
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibmic",
+      "w": 0.482027
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "cotton1245",
+      "trait": "cotton_fibstr",
+      "w": 0.484066
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "grain_length",
+      "w": 0.434464
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "grain_thickness",
+      "w": 0.478883
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "w": 0.540303
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "w": 0.516011
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "heading_date",
+      "w": 0.491476
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "num_effective_panicles",
+      "w": 0.549183
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "w": 0.51036
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "plant_height",
+      "w": 0.511848
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "spikelet_length",
+      "w": 0.438902
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "rice529",
+      "trait": "yield",
+      "w": 0.477688
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "bbd",
+      "w": 0.52137
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "w": 0.513559
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "fa18c",
+      "w": 0.47519
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "fac",
+      "w": 0.468555
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "hsw",
+      "w": 0.458685
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "ll",
+      "w": 0.462332
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "lw",
+      "w": 0.491884
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "md",
+      "w": 0.502373
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "plh",
+      "w": 0.494077
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "prt",
+      "w": 0.44315
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "sl",
+      "w": 0.476284
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "st",
+      "w": 0.452444
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "w": 0.503754
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "ph_e1",
+      "w": 0.482708
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "ph_e2",
+      "w": 0.543186
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "ph_e3",
+      "w": 0.506274
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "pl_e1",
+      "w": 0.510689
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "pl_e2",
+      "w": 0.51565
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "pl_e3",
+      "w": 0.523378
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "sl_e1",
+      "w": 0.510846
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "w": 0.458121
+    },
+    {
+      "type": "Triple fusion",
+      "dataset": "wheat406",
+      "trait": "sl_e3",
+      "w": 0.436231
+    }
+  ],
+  "scatter": [
+    {
+      "dataset": "soybean951",
+      "trait": "prt",
+      "label": "soybean951 / prt",
+      "bestType": "RKHS",
+      "x": -33.036997,
+      "y": -0.750724
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fa16c",
+      "label": "soybean951 / fa16c",
+      "bestType": "RKHS",
+      "x": -10.766871,
+      "y": -0.654918
+    },
+    {
+      "dataset": "rice529",
+      "trait": "yield",
+      "label": "rice529 / yield",
+      "bestType": "RKHS",
+      "x": -10.383984,
+      "y": -0.206851
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "vbn",
+      "label": "soybean951 / vbn",
+      "bestType": "RKHS",
+      "x": -2.541491,
+      "y": -0.158608
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "md",
+      "label": "soybean951 / md",
+      "bestType": "RKHS",
+      "x": -8.577079,
+      "y": -0.150763
+    },
+    {
+      "dataset": "rice529",
+      "trait": "num_panicles",
+      "label": "rice529 / num_panicles",
+      "bestType": "RKHS",
+      "x": -4.85057,
+      "y": -0.066846
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "label": "rice529 / grain_width",
+      "bestType": "BayesB",
+      "x": -2.343119,
+      "y": 0.025869
+    },
+    {
+      "dataset": "rice529",
+      "trait": "spikelet_length",
+      "label": "rice529 / spikelet_length",
+      "bestType": "RKHS",
+      "x": -4.701104,
+      "y": 0.030378
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "bbd",
+      "label": "soybean951 / bbd",
+      "bestType": "BayesB",
+      "x": -3.689437,
+      "y": 0.069141
+    },
+    {
+      "dataset": "rice529",
+      "trait": "num_effective_panicles",
+      "label": "rice529 / num_effective_panicles",
+      "bestType": "RKHS",
+      "x": -3.511008,
+      "y": 0.160304
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "plh",
+      "label": "soybean951 / plh",
+      "bestType": "BayesB",
+      "x": -7.667073,
+      "y": 0.274769
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fa18c",
+      "label": "soybean951 / fa18c",
+      "bestType": "BayesB",
+      "x": -3.679525,
+      "y": 0.285013
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_thickness",
+      "label": "rice529 / grain_thickness",
+      "bestType": "BayesB",
+      "x": -3.487751,
+      "y": 0.323281
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "label": "wheat406 / sl_e2",
+      "bestType": "RKHS",
+      "x": -15.263611,
+      "y": 0.32776
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "fac",
+      "label": "soybean951 / fac",
+      "bestType": "RKHS",
+      "x": -6.983382,
+      "y": 0.353907
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "sl",
+      "label": "soybean951 / sl",
+      "bestType": "RKHS",
+      "x": -9.128895,
+      "y": 0.425065
+    },
+    {
+      "dataset": "rice529",
+      "trait": "heading_date",
+      "label": "rice529 / heading_date",
+      "bestType": "RKHS",
+      "x": -1.105885,
+      "y": 0.456915
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "st",
+      "label": "soybean951 / st",
+      "bestType": "GBLUP",
+      "x": -6.520565,
+      "y": 0.569222
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "ph_e3",
+      "label": "wheat406 / ph_e3",
+      "bestType": "BayesB",
+      "x": -1.841959,
+      "y": 0.666544
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_length",
+      "label": "rice529 / grain_length",
+      "bestType": "BayesB",
+      "x": -3.463821,
+      "y": 0.815994
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "pl_e3",
+      "label": "wheat406 / pl_e3",
+      "bestType": "BayesB",
+      "x": -1.592757,
+      "y": 0.998628
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "ph_e1",
+      "label": "wheat406 / ph_e1",
+      "bestType": "BayesB",
+      "x": -1.238868,
+      "y": 1.09328
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "label": "cotton1245 / cotton_fibelo",
+      "bestType": "BayesB",
+      "x": -4.112513,
+      "y": 1.094384
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "ph_e2",
+      "label": "wheat406 / ph_e2",
+      "bestType": "BayesB",
+      "x": -1.814606,
+      "y": 1.116465
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e3",
+      "label": "wheat406 / sl_e3",
+      "bestType": "BayesB",
+      "x": -5.147332,
+      "y": 1.142008
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "hsw",
+      "label": "soybean951 / hsw",
+      "bestType": "GBLUP",
+      "x": -3.961218,
+      "y": 1.197943
+    },
+    {
+      "dataset": "rice529",
+      "trait": "plant_height",
+      "label": "rice529 / plant_height",
+      "bestType": "GBLUP",
+      "x": 0.43725,
+      "y": 1.278292
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "ll",
+      "label": "soybean951 / ll",
+      "bestType": "BayesB",
+      "x": -12.998495,
+      "y": 1.397444
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "lw",
+      "label": "soybean951 / lw",
+      "bestType": "BayesB",
+      "x": -8.285345,
+      "y": 1.660313
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibstr",
+      "label": "cotton1245 / cotton_fibstr",
+      "bestType": "RKHS",
+      "x": -1.228325,
+      "y": 1.684973
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibmic",
+      "label": "cotton1245 / cotton_fibmic",
+      "bestType": "RKHS",
+      "x": -1.080448,
+      "y": 1.72871
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fiblen",
+      "label": "cotton1245 / cotton_fiblen",
+      "bestType": "BayesB",
+      "x": -2.0105,
+      "y": 1.779784
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "pl_e2",
+      "label": "wheat406 / pl_e2",
+      "bestType": "RKHS",
+      "x": -0.758281,
+      "y": 1.932768
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "pl_e1",
+      "label": "wheat406 / pl_e1",
+      "bestType": "BayesB",
+      "x": 1.759547,
+      "y": 2.368515
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "label": "rice529 / grain_weight",
+      "bestType": "BayesB",
+      "x": 2.175131,
+      "y": 3.603031
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e1",
+      "label": "wheat406 / sl_e1",
+      "bestType": "RKHS",
+      "x": -1.8771,
+      "y": 3.829958
+    }
+  ],
+  "sampleSummary": [
+    {
+      "sampleLabel": "20%",
+      "fraction": 0.2,
+      "nTraits": 8,
+      "meanNoPrior": 0.486712,
+      "meanBayesB": 0.517333,
+      "meanGBLUP": 0.50729,
+      "meanRKHS": 0.519981,
+      "meanTriple": 0.52368,
+      "gainVsBestPct": 0.251191,
+      "gainVsBayesBPct": 1.396288,
+      "gainVsGBLUPPct": 4.280179,
+      "gainVsRKHSPct": 0.631649,
+      "wins": 5
+    },
+    {
+      "sampleLabel": "60%",
+      "fraction": 0.6,
+      "nTraits": 8,
+      "meanNoPrior": 0.582699,
+      "meanBayesB": 0.598203,
+      "meanGBLUP": 0.591295,
+      "meanRKHS": 0.593357,
+      "meanTriple": 0.608639,
+      "gainVsBestPct": 1.789092,
+      "gainVsBayesBPct": 2.065793,
+      "gainVsGBLUPPct": 3.235286,
+      "gainVsRKHSPct": 2.805966,
+      "wins": 7
+    },
+    {
+      "sampleLabel": "100%",
+      "fraction": 1.0,
+      "nTraits": 8,
+      "meanNoPrior": 0.609656,
+      "meanBayesB": 0.631417,
+      "meanGBLUP": 0.620837,
+      "meanRKHS": 0.627129,
+      "meanTriple": 0.643458,
+      "gainVsBestPct": 1.54878,
+      "gainVsBayesBPct": 2.339403,
+      "gainVsGBLUPPct": 4.127037,
+      "gainVsRKHSPct": 2.710999,
+      "wins": 8
+    }
+  ],
+  "markerSummary": [
+    {
+      "markerLabel": "2K",
+      "markerCount": 2000,
+      "nTraits": 8,
+      "meanNoPrior": 0.589012,
+      "meanBayesB": 0.602834,
+      "meanGBLUP": 0.601697,
+      "meanRKHS": 0.614662,
+      "meanTriple": 0.620091,
+      "gainVsBayesBPct": 2.920449,
+      "gainVsGBLUPPct": 3.228987,
+      "gainVsRKHSPct": 0.821779,
+      "winsBest": 7
+    },
+    {
+      "markerLabel": "10K",
+      "markerCount": 10000,
+      "nTraits": 8,
+      "meanNoPrior": 0.609656,
+      "meanBayesB": 0.631417,
+      "meanGBLUP": 0.620837,
+      "meanRKHS": 0.627129,
+      "meanTriple": 0.643458,
+      "gainVsBayesBPct": 2.339403,
+      "gainVsGBLUPPct": 4.127037,
+      "gainVsRKHSPct": 2.710999,
+      "winsBest": 8
+    },
+    {
+      "markerLabel": "50K",
+      "markerCount": 50000,
+      "nTraits": 8,
+      "meanNoPrior": 0.619505,
+      "meanBayesB": 0.659904,
+      "meanGBLUP": 0.632763,
+      "meanRKHS": 0.635205,
+      "meanTriple": 0.667544,
+      "gainVsBayesBPct": 1.475714,
+      "gainVsGBLUPPct": 6.471139,
+      "gainVsRKHSPct": 5.644786,
+      "winsBest": 6
+    }
+  ],
+  "markerCaseRows": [
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "markerLabel": "2K",
+      "bestType": "RKHS",
+      "gainVsBestPct": 0.679802
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "markerLabel": "10K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 1.094384
+    },
+    {
+      "dataset": "cotton1245",
+      "trait": "cotton_fibelo",
+      "markerLabel": "50K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 0.285992
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "markerLabel": "2K",
+      "bestType": "RKHS",
+      "gainVsBestPct": 0.507016
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "markerLabel": "10K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 3.603031
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_weight",
+      "markerLabel": "50K",
+      "bestType": "BayesB",
+      "gainVsBestPct": -1.202195
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "markerLabel": "2K",
+      "bestType": "RKHS",
+      "gainVsBestPct": 0.643619
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "markerLabel": "10K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 0.025869
+    },
+    {
+      "dataset": "rice529",
+      "trait": "grain_width",
+      "markerLabel": "50K",
+      "bestType": "BayesB",
+      "gainVsBestPct": -0.001093
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "lw",
+      "markerLabel": "2K",
+      "bestType": "RKHS",
+      "gainVsBestPct": 0.673771
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "lw",
+      "markerLabel": "10K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 1.660313
+    },
+    {
+      "dataset": "soybean951",
+      "trait": "lw",
+      "markerLabel": "50K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 0.587411
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "markerLabel": "2K",
+      "bestType": "RKHS",
+      "gainVsBestPct": -0.901278
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "markerLabel": "10K",
+      "bestType": "RKHS",
+      "gainVsBestPct": 0.32776
+    },
+    {
+      "dataset": "wheat406",
+      "trait": "sl_e2",
+      "markerLabel": "50K",
+      "bestType": "BayesB",
+      "gainVsBestPct": 0.715454
+    }
+  ],
+  "tabpfn": {
+    "meanNoPrior": 0.598644,
+    "meanOnlyTriple": 0.632524,
+    "meanTriple": 0.635161,
+    "meanBayesB": 0.631417,
+    "meanGBLUP": 0.620837,
+    "meanRKHS": 0.627129,
+    "gainVsBayesBPct": 0.631541,
+    "gainVsGBLUPPct": 2.405786,
+    "gainVsRKHSPct": 1.04011,
+    "gainVsBestPct": -0.123029,
+    "gainVsOnlyPct": 0.349563,
+    "improvedCount": 4,
+    "nTraits": 8,
+    "singleSummary": [
+      {
+        "prior": "BayesB",
+        "meanPriorOnly": 0.631417,
+        "meanSingleFusion": 0.636352,
+        "gainPct": 0.771912,
+        "meanW": 0.462266,
+        "wins": 5
+      },
+      {
+        "prior": "GBLUP",
+        "meanPriorOnly": 0.620837,
+        "meanSingleFusion": 0.631549,
+        "gainPct": 1.787539,
+        "meanW": 0.46331,
+        "wins": 6
+      },
+      {
+        "prior": "RKHS",
+        "meanPriorOnly": 0.627129,
+        "meanSingleFusion": 0.630888,
+        "gainPct": 0.419555,
+        "meanW": 0.465582,
+        "wins": 5
+      }
+    ],
+    "traitRows": [
+      {
+        "dataset": "cotton1245",
+        "trait": "cotton_fibelo",
+        "bestType": "BayesB",
+        "tripleVsBestPct": 0.018979,
+        "triple": 0.659656,
+        "bestBaseline": 0.65953
+      },
+      {
+        "dataset": "cotton1245",
+        "trait": "cotton_fiblen",
+        "bestType": "BayesB",
+        "tripleVsBestPct": 2.504305,
+        "triple": 0.774825,
+        "bestBaseline": 0.755895
+      },
+      {
+        "dataset": "rice529",
+        "trait": "grain_weight",
+        "bestType": "BayesB",
+        "tripleVsBestPct": 0.640894,
+        "triple": 0.565485,
+        "bestBaseline": 0.561884
+      },
+      {
+        "dataset": "rice529",
+        "trait": "grain_width",
+        "bestType": "BayesB",
+        "tripleVsBestPct": -0.590437,
+        "triple": 0.831239,
+        "bestBaseline": 0.836176
+      },
+      {
+        "dataset": "soybean951",
+        "trait": "bbd",
+        "bestType": "BayesB",
+        "tripleVsBestPct": -0.625902,
+        "triple": 0.815834,
+        "bestBaseline": 0.820973
+      },
+      {
+        "dataset": "soybean951",
+        "trait": "lw",
+        "bestType": "BayesB",
+        "tripleVsBestPct": 4.001413,
+        "triple": 0.568956,
+        "bestBaseline": 0.547066
+      },
+      {
+        "dataset": "wheat406",
+        "trait": "sl_e1",
+        "bestType": "RKHS",
+        "tripleVsBestPct": -3.276322,
+        "triple": 0.444546,
+        "bestBaseline": 0.459604
+      },
+      {
+        "dataset": "wheat406",
+        "trait": "sl_e2",
+        "bestType": "RKHS",
+        "tripleVsBestPct": -3.657159,
+        "triple": 0.420745,
+        "bestBaseline": 0.436716
+      }
+    ]
+  }
+}

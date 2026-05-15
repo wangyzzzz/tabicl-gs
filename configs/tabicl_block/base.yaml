@@ -1,0 +1,78 @@
+seed: 2026
+max_snps: 10000
+group_size: 100
+n_groups: 100
+grouping_strategy: random
+outer_cv_folds: 5
+trait_col: Heading_date
+plink_prefix: genome/rice529/plink/rice529
+phenotype_csv: genome/rice529/rice529_phe.csv
+phenotype_sample_id_col: sample_id
+main_models:
+  - name: TabICLv2-2stage
+    stage1_backend: tabicl
+    stage2_backend: tabicl
+  - name: TabPFN-2stage
+    stage1_backend: tabpfn
+    stage2_backend: tabpfn
+  - name: XGBoost-2stage
+    stage1_backend: xgboost
+    stage2_backend: xgboost
+stage1:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    kv_cache: repr
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+    embedding_reduce_dim: 16
+  tabpfn:
+    n_estimators: 1
+    device: cuda
+    fit_mode: fit_preprocessors
+    ignore_pretraining_limits: false
+    embedding_reduce_dim: 4
+  xgboost:
+    n_estimators: 64
+    max_depth: 4
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    tree_method: hist
+    device: cpu
+    n_jobs: 1
+    embedding_reduce_dim: 8
+stage2:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+  tabpfn:
+    n_estimators: 1
+    device: cuda
+    fit_mode: fit_preprocessors
+    ignore_pretraining_limits: false
+  xgboost:
+    n_estimators: 256
+    max_depth: 5
+    learning_rate: 0.05
+    subsample: 0.9
+    colsample_bytree: 0.9
+    tree_method: hist
+    device: cpu
+    n_jobs: 4
+baselines:
+  rscript_path: /home/user/anaconda3/envs/r-env/bin/Rscript
+  sommer_method: mmer
+  gblup: true
+  bayesA: true
+  bayesB: true
+  bayesLasso: true
+output_dir: outputs/tabicl_block/default

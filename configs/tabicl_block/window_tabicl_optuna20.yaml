@@ -1,0 +1,67 @@
+seed: 2026
+max_snps: 10000
+group_size: 100
+n_groups: 100
+grouping_strategy: window
+outer_cv_folds: 5
+trait_col: Heading_date
+plink_prefix: genome/rice529/plink/rice529
+phenotype_csv: genome/rice529/rice529_phe.csv
+phenotype_sample_id_col: sample_id
+pad_incomplete_last_block: true
+include_block_scalar: false
+main_models:
+  - name: TabICLv2-2stage
+    stage1_backend: tabicl
+    stage2_backend: tabicl
+stage1:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    kv_cache: repr
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+    embedding_reduce_dim: 16
+stage2:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+tuning:
+  enabled: true
+  model_names:
+    - TabICLv2-2stage
+  objective_metric: pearson
+  n_trials: 20
+  sampler_seed: 2026
+  pad_incomplete_last_block: true
+  group_size_choices:
+    - 50
+    - 100
+    - 200
+    - 300
+    - 500
+    - 1000
+  block_embedding_dim_choices:
+    - 8
+    - 16
+    - 32
+    - 64
+  include_block_scalar_choices:
+    - false
+    - true
+baselines:
+  rscript_path: /data/yes/envs/r_env/bin/Rscript
+  sommer_method: mmer
+  gblup: true
+  bayesA: true
+  bayesB: true
+  bayesLasso: true
+output_dir: outputs/tabicl_block/window_tabicl_optuna20

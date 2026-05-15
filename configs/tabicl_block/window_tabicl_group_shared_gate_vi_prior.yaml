@@ -1,0 +1,65 @@
+seed: 2026
+max_snps: 10000
+group_size: 1249
+n_groups: 10
+grouping_strategy: window
+outer_cv_folds: 5
+trait_col: Heading_date
+plink_prefix: genome/rice529/plink/rice529
+phenotype_csv: genome/rice529/rice529_phe.csv
+phenotype_sample_id_col: sample_id
+pad_incomplete_last_block: true
+include_block_scalar: false
+collect_block_diagnostics: false
+save_block_summaries: true
+embedding_extraction_mode: legacy
+stage2_dual_prior:
+  enabled: true
+  primary_model: BayesB
+  secondary_model: GBLUP
+main_models:
+  - name: TabICLv2-GroupSharedGate-VIPrior
+    stage1_backend: tabicl
+    stage2_backend: group_shared_gate
+stage1:
+  tabicl:
+    n_estimators: 1
+    norm_methods:
+      - none
+    feat_shuffle_method: none
+    batch_size: 1
+    kv_cache: repr
+    checkpoint_version: tabicl-regressor-v2-20260212.ckpt
+    device: cuda
+    embedding_reduce_dim: null
+    embedding_explained_variance_target: 0.99
+    track_full_explained_variance: false
+stage2:
+  group_shared_gate:
+    use_prior_prediction: true
+    use_dual_priors: true
+    prior_backend: vi
+    vi_prior_config:
+      max_epochs: 1500
+      lr: 0.02
+      prior_scale: 1.0
+      noise_scale: 1.0
+      guide_init_scale: 0.1
+      early_stopping_patience: 60
+      tol: 1.0e-5
+    group_mode: prior_guided_group
+    num_groups: 3
+    hidden_dim: 16
+    lr: 0.001
+    weight_decay: 0.0001
+    max_epochs: 200
+    device: cpu
+    prior_scores: []
+baselines:
+  rscript_path: /data/yes/envs/r_env/bin/Rscript
+  sommer_method: mmer
+  gblup: false
+  bayesA: false
+  bayesB: false
+  bayesLasso: false
+output_dir: outputs/tabicl_block/window_tabicl_group_shared_gate_vi_prior

@@ -1,0 +1,20 @@
+seed: 2026
+max_snps: 10000
+group_size: 100
+n_groups: 100
+grouping_strategy: window
+outer_cv_folds: 5
+trait_col: Heading_date
+plink_prefix: genome/rice529/plink/rice529
+phenotype_csv: genome/rice529/rice529_phe.csv
+phenotype_sample_id_col: sample_id
+pad_incomplete_last_block: true
+main_models: []
+baselines:
+  rscript_path: /data/yes/envs/r_env/bin/Rscript
+  sommer_method: mmer
+  gblup: false
+  bayesA: true
+  bayesB: true
+  bayesLasso: true
+output_dir: outputs/tabicl_block/window_bayes_only_10traits
