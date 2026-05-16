@@ -102,6 +102,13 @@
   - `no_prior` outer test + inner OOF
   - `baseline` outer test + inner OOF
 - 不应再为 single / dual / triple 重复训练底层模型
+- 注意口径：
+  - `scripts/run_decoupled_prior_fusion_from_archives.py` 写入 `outputs/.../fusion/*/tabicl_*_prior/fold_metrics.csv` 的是历史兼容的 `two_step_clip` 口径
+  - 论文主结果固定使用 `two_step_ls`
+  - `two_step_ls` 应从 `scripts/compare_decoupled_weight_schemes.py` 生成的 compare 表读取，例如：
+    - `outputs/5.4-duli-liudang/compare_all_41_traits.csv`
+    - `outputs/5.4-duli-liudang/main_results_non_pig_fixed.csv`
+  - 不要直接把 `fusion/*/tabicl_tabicl_triple_prior/fold_metrics.csv` 当作 `triple_two_step_ls` 主结果
 
 ## 当前结果口径
 
@@ -116,6 +123,11 @@
   - `single_gblup_two_step_ls`
   - `single_rkhs_two_step_ls`
   - `triple_two_step_ls`
+- 若做小规模可重复性检查：
+  - 使用 `scripts/run_repro_git_20260515_server_gpu1.sh`
+  - 输出目录默认：`outputs/repro_git_20260515`
+  - 该入口会复用已完成的 `no_prior / baseline / fusion` 留档，并额外生成 `compare/*/*/compare_main.csv`
+  - 核对论文主结果时看 `outputs/repro_git_20260515/repro_compare_summary.csv`
 
 ## 任务原则
 
